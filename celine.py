@@ -95,5 +95,6 @@ if __name__ == "__main__":
             result = wikipedia.summary(query, sentences=2)
             print(result)
             speak(result)
+        elif 'send email' in query
         elif 'offline' in query:
             quit()
