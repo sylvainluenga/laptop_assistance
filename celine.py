@@ -70,7 +70,9 @@ def takeCommand():
     return query
 
 def sendEmail(to, content):
-    server = smtplib.SMTP(smtp.gmail.com)
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.ehlo()
+    
 
 
 if __name__ == "__main__":
