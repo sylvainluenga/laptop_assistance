@@ -97,5 +97,7 @@ if __name__ == "__main__":
                 speak("what must i type sensei?")
                 content = takeCommand()
                 to = 'receiver@gmail.com'
+                sendEmail(to, content)
+                speak("Email has been send")
         elif 'offline' in query:
             quit()
