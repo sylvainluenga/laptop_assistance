@@ -74,11 +74,8 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
     server.login('add your account@gmail.com', 'you can also add your password here like: abcd')
-    server.sendmail('account@gmail.com', to : here put the receiver address you need to put, content)
+    server.sendmail('account@gmail.com', to = 'receiver@gmail.com', content)
     server.close()
-
-
-
 
 
 if __name__ == "__main__":
@@ -99,5 +96,6 @@ if __name__ == "__main__":
             try:
                 speak("what must i type sensei?")
                 content = takeCommand()
+                to = 'receiver@gmail.com'
         elif 'offline' in query:
             quit()
