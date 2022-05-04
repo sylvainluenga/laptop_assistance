@@ -95,6 +95,9 @@ if __name__ == "__main__":
             result = wikipedia.summary(query, sentences=2)
             print(result)
             speak(result)
-        elif 'send email' in query
+        elif 'send email' in query:
+            try:
+                speak("what must i type sensei?")
+                content = takeCommand()
         elif 'offline' in query:
             quit()
