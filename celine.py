@@ -74,7 +74,8 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
     server.login('add your account@gmail.com', 'you can also add your password here like: abcd')
-    server.sendmail('account@gmail.com, to : here is the receiver address you need to put, content')
+    server.sendmail('account@gmail.com', to : here put the receiver address you need to put, content)
+    server.close()
 
 
 
