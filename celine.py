@@ -5,6 +5,7 @@ import datetime
 import speech_recognition as sr  # pip install SpeechRecognition
 import wikipedia  # pip install wikipedia
 import autopep8  # -m pip install -U autopep8
+import smtplib 
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
