@@ -69,6 +69,8 @@ def takeCommand():
         return "None"
     return query
 
+def sendEmail(to, content)
+
 
 if __name__ == "__main__":
     wishme()
