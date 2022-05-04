@@ -69,7 +69,8 @@ def takeCommand():
         return "None"
     return query
 
-def sendEmail(to, content)
+def sendEmail(to, content):
+    server = smtplib.SMTP(smtp.gmail.com)
 
 
 if __name__ == "__main__":
