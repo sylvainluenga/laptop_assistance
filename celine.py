@@ -77,7 +77,6 @@ def sendEmail(to, content):
     server.sendmail('account@gmail.com', to = 'receiver@gmail.com', content)
     server.close()
 
-
 if __name__ == "__main__":
     wishme()
     while True:
