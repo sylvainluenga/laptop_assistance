@@ -92,6 +92,7 @@ if __name__ == "__main__":
             result = wikipedia.summary(query, sentences=2)
             print(result)
             speak(result)
+            
         elif 'send email' in query:
             try:
                 speak("what must i type sensei?")
@@ -99,6 +100,6 @@ if __name__ == "__main__":
                 to = 'receiver@gmail.com'
                 sendEmail(to, content)
                 speak("Email has been send")
-                
+
         elif 'offline' in query:
             quit()
