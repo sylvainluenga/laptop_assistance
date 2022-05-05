@@ -99,6 +99,5 @@ if __name__ == "__main__":
                 to = 'receiver@gmail.com'
                 sendEmail(to, content)
                 speak("Email has been send")
-
         elif 'offline' in query:
             quit()
