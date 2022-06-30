@@ -5,6 +5,6 @@
 ```sh
 with this project we will be adding anything i am getting from sugesstion for exemple last week someone asked to to add a fonction that can send an email and i just added it,
 ```
-``sh
+```sh
 your comment will make this project big and big 
 ```
